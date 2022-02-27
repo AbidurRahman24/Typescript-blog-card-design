@@ -7,7 +7,7 @@ import './ProductCard.css';
 
 
 const ProductCard = (props) => {
-    const {image, title, salePrice, regularPrice} =  props.product[0]
+    const { image, title, salePrice, regularPrice } = props.product[0]
     // States
     // const [isImageLoaded, setIsImageLoaded] = React.useState(false)
     // Cart Configaration
@@ -23,14 +23,10 @@ const ProductCard = (props) => {
                     <img src={image} alt="rover" />
                 </div>
                 <div class="card-body">
-                    <h4>
-                        {title}
-                    </h4>
-                    <p>
-                        Select Your Stock
-                    </p>
+                    <h4>{title}</h4>
+                    <p>Select Your Stock </p>
                     <div class="user">
-                        <div style={{margin: '24px 0;' }}>
+                        <div style={{ margin: '24px 0;' }}>
                             <a href="/"><i class="fa-brands fa-wordpress"></i></a>
                             <a href="/"><i class="fa-brands fa-react"></i></a>
                             <a href="/"><i class="fa-brands fa-node-js"></i></a>

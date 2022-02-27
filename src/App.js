@@ -26,11 +26,11 @@ function App() {
     <div className="App">
       Hello Typescript
       {
-                            Product.map(product => <ProductCard
-                              product={Product}
-                                key={product.id}
-                            ></ProductCard>)
-                        }
+        Product.map(product => <ProductCard
+          product={Product}
+          key={product.id}
+        ></ProductCard>)
+      }
     </div>
   );
 }
